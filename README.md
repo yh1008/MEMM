@@ -1,8 +1,7 @@
 #### MEMM
 Maximum-entropy Markov model
-author: Emily Hua
-------------
-####Goal: implement MEMM to predict BOI tags
+#####author: Emily Hua
+#####Goal: implement MEMM to predict BOI tags
 
 Information about the program:
 some non-ASCII chars(mainly punctuations)  may break the stemmer: replace them with ASCII punc
