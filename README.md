@@ -4,9 +4,9 @@ Maximum-entropy Markov model
 ##### Goal: implement MEMM to predict BOI tags
 
 Information about the program:
-some non-ASCII chars(mainly punctuations)  may break the stemmer: replace them with ASCII punc
-It has two programs: MEMM_1.py and MEMM_2.py; 1 python pickle file: my_classifier.pickle; one evaluation program: conlleval.pl;
-one training file: train.np; one development file: dev.np
+some non-ASCII chars(mainly punctuations)  may break the stemmer: replace them with ASCII punc.     
+It has two programs: MEMM_1.py and MEMM_2.py; 1 python pickle file: my_classifier.pickle; one evaluation program: conlleval.pl;   
+one training file: train.np; one development file: dev.np   
 
 ###### Run MEMM_1.py takes LONG time as it starts with training the model
 ###### Run MEMM_2.py takes SHORTER time as it opens the pickle file and starts with testing. 
